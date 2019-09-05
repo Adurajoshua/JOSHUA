@@ -4,7 +4,7 @@ body {
     font-family: Tahoma, Arial, sans-serif;
     font-size: 13px;
     color: black;
-    background-color:#f4f4f4;
+    background-color: #FEFFED;
     /*line height: 1.6em;*/
     margin: auto;
     border: 0px;
@@ -82,3 +82,92 @@ body {
     padding: 0%;
     list-style: none;
 }
+h2{
+    background-color: #FEFFED;
+    padding: 30px 35px;
+    margin: -10px -50px;
+    text-align:center;
+    border-radius: 10px 10px 0 0;
+    }
+    hr{
+    margin: 10px -50px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-bottom: 40px;
+    }
+    div.content{
+    width: 400px;
+    height: 610px;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px;
+    }
+    div.main{
+    width: 300px;
+    padding: 10px 50px 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: raleway;
+    float:left;
+    margin-top:60px;
+    }
+    input[type=text]{
+    width: 100%;
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    color: #4f4f4f;
+    font-size: 16px;
+    border-radius: 5px;
+    }
+
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px;  
+        border: 1px solid #ccc; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px;
+        resize: vertical 
+      }
+      
+    label{
+    color: #464646;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+    font-weight: bold;
+    }
+
+    button {
+        background-color: #4E4D4B;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #ffdd7f ;
+      }
+      
+    /*#btn_id,#btn_name,#btn_class,#btn_tag{
+    font-size: 16px;
+    background: linear-gradient(#ffbc00 0%, #ffdd7f 100%);
+    border: 1px solid #e5a900;
+    color: #4E4D4B;
+    font-weight: bold;
+    cursor: pointer;
+    width: 47.5%;
+    border-radius: 5px;
+    margin-bottom:10px;
+    padding: 7px 0;
+    }
+    #btn_id:hover,#btn_name:hover,#btn_class:hover,#btn_tag:hover{
+    background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+    }
+    #btn_name,#btn_tag{
+    margin-left: 10px;
+    }*/
