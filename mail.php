@@ -20,7 +20,7 @@ $message = $_POST["message"];
   
 $headers = "from:" .$name  \n\n .$email;
 
-$mailto ="https://formsubmit.co/adurajoshua@gmail.com";
+$mailto ="https://joshua-cv.000webhostapp.com/";
 $send_contact = mail ($mailto, $subject, $message, $headers) ;
 
 if($send_contact){
