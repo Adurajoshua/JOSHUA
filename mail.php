@@ -11,7 +11,7 @@
 //echo "Thank You!";
 
 
-<?php
+
 
 $name = $_POST["name"];
 $email = $_POST["email"];
