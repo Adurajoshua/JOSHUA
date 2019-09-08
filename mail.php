@@ -18,7 +18,7 @@ $email = $_POST["email"];
 $subject = $_POST["subject"];
 $message = $_POST["message"];
   
-$headers = "from:" .$name  ".\n \n" .$email;
+$headers = "from:" .$name  .$email;
 
 $mailto ="https://joshua-cv.000webhostapp.com/";
 $send_contact = mail ($mailto, $subject, $message, $headers) ;
