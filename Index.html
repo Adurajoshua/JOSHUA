@@ -146,7 +146,7 @@ OBJECTIVE: To achieve assigned responsibilities by providing skills to the benef
 
 <div class="content">
   <div class="main">
-  <form action="#" method="post" name="form_name" class="form_class"onsubmit="return validateform()" method="post">  >
+  <form name="form_name" class="form_class"onsubmit="return validateform()"  method="post" action="mail.php" >
   <h2>CONTACT FORM</h2>
   <label>Name :</label>
   <input type="text" name="name" placeholder="Name" />
@@ -156,7 +156,8 @@ OBJECTIVE: To achieve assigned responsibilities by providing skills to the benef
   <input type="text"  name ="subject" placeholder="Subject" />
   <label>Message :</label>
   <textarea id= "Message" name= "message" placeholder="Message" style="height:200px"></textarea>
-  <button onclick="validateform()"  type="submit">Send </button>
+  <input type="submit" name="Submit" value="Submit"> </button>
+  <!--<input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php"></a>*//-->
 
 </div>
   
